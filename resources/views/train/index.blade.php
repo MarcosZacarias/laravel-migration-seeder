@@ -17,8 +17,8 @@
                             <li><strong>Orario di partenza: </strong>{{$train->departure_time}}</li>
                             <li><strong>Orario di arrivo: </strong>{{$train->arrival_time}}</li>
                             <li><strong>N° di carrozze: </strong>{{$train->carriage}}</li>
-                            <li><strong>In orario: </strong>{{$train->in_time}}</li>
-                            <li><strong>Cancellato: </strong>{{$train->deleted}}</li>
+                            <li><strong>In orario: </strong>{{$train->getTrainInTime()}}</li>
+                            <li><strong>Cancellato: </strong>{{$train->getTrainDeleted()}}</li>
 
                         </ul>
                     </p>
