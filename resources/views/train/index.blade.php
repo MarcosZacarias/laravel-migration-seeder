@@ -14,11 +14,11 @@
                             <li><strong>Stazione di arrivo: </strong>{{$train->code_train}}</li>
                             <li><strong>Stazione di partenza: </strong>{{$train->departure_station}}</li>
                             <li><strong>Stazione di arrivo: </strong>{{$train->arrival_station}}</li>
-                            <li><strong>Stazione di arrivo: </strong>{{$train->departure_time}}</li>
-                            <li><strong>Stazione di arrivo: </strong>{{$train->arrival_time}}</li>
-                            <li><strong>Stazione di arrivo: </strong>{{$train->carriage}}</li>
-                            <li><strong>Stazione di arrivo: </strong>{{$train->in_time}}</li>
-                            <li><strong>Stazione di arrivo: </strong>{{$train->deleted}}</li>
+                            <li><strong>Orario di partenza: </strong>{{$train->departure_time}}</li>
+                            <li><strong>Orario di arrivo: </strong>{{$train->arrival_time}}</li>
+                            <li><strong>N° di carrozze: </strong>{{$train->carriage}}</li>
+                            <li><strong>In orario: </strong>{{$train->in_time}}</li>
+                            <li><strong>Cancellato: </strong>{{$train->deleted}}</li>
 
                         </ul>
                     </p>
